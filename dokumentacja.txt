@@ -1,0 +1,55 @@
+Dokumentacja Aplikacji Pogodowej w plik script.js
+
+1.
+Nazwa Funkcji: Pobieranie oraz wyswietlanie aktualnej pogody 
+Argumenty: cityInput,apiUrl
+
+Opis: Za pomoca jquery i funkcji .ready  funkcja dziala po kazdym odswiezeniu strony. Wywołuje funkcję fetch w celu pobrania danych pogodowych z API OpenWeatherMap ktora wyswietla aktualna pogode dla danej miejscowosci. Następnie przetwarza otrzymaną odpowiedź w formacie JSON za pomocą metod response.json(). Utworzone sa zmienne pogoda oraz pogoda2 ktore wyznaczaja miejsce gdzie maja byc wyswietlone dane o pogodzie. Utworzona jest rowniez zmienna wiatr2 oraz vis ktore zmienia jednostki. Nastepnie wstawia do dwoch elementow html o identyfikatorach blok1  blok2 dane.
+
+
+2. 
+Nazwa Funkcji: Pobieranie i wsywietlanie prognozy pogody na 5 dni. 
+
+Argumenty: cityInput,apiUrl2.
+
+Opis: Za pomoca jquery i funkcji .ready  funkcja dziala po kazdym odswiezeniu strony. Wywołuje funkcję fetch w celu pobrania danych pogodowych z API OpenWeatherMap ktora wyswietla 5 dniowa prognoze pogody dla danej miejscowosci. Następnie przetwarza otrzymaną odpowiedź w formacie JSON za pomocą metod response.json(). Utworzone sa zmienne pogoda3 ktora wyznacza  miejsce o id blok3 gdzie dane maja zostac wyswietlone. Utworzone sa zmienne ktore odpowiadaja za date. a nastepnie za pomoca petlii for wyswietlane sa dane w kolumnach ktore ukazuja prognoze 5 dniowa. Nastepnie do html o id blok3 dodany jest przycisk o id pokazprognoze do ktorego przypisana jest funkcja ktora po kliknieciu w przycisk przekierowuje do strony o adresie prognoza.html?city=Nisko.
+
+
+
+
+3.
+Nazwa Funkcji: Pobieranie oraz wyswietlanie aktualnej pogody dla wpisanej miejscowosci
+
+Argumenty: cityInput,apiUrl
+
+Opis: Funkcja zaczyna dziala po wpisaniu dobrej nazwy miejscowosci w miejscu wyszukiwania i kliknieciu enter nastepnie wywołuje funkcję fetch w celu pobrania danych pogodowych z API OpenWeatherMap ktora wyswietla aktualna pogode dla wpisanej miejscowosci. Następnie przetwarza otrzymaną odpowiedź w formacie JSON za pomocą metod response.json(). Utworzone sa zmienne pogoda oraz pogoda2 ktore wyznaczaja miejsce gdzie maja byc wyswietlone dane o pogodzie. Utworzona jest rowniez zmienna wiatr2 oraz vis ktore zmienia jednostki. Nastepnie wstawia do dwoch elementow html o identyfikatorach blok1  blok2 dane.
+
+
+
+4.
+
+Nazwa Funkcji: Pobieranie i wsywietlanie prognozy pogody na 5 dni dla wpisanej miejscowosci. 
+
+Argumenty: cityInput,apiUrl2.
+
+Opis: Funkcja zaczyna dzialac po wpisaniu poprawnej nazwy miejscowosci w miejscu wyszukiwaniu i kliknieciu enter nastepnie wywolouje funkcję fetch w celu pobrania danych pogodowych z API OpenWeatherMap ktora wyswietla 5 dniowa prognoze pogody dla Wpisanej miejscowosci. Następnie przetwarza otrzymaną odpowiedź w formacie JSON za pomocą metod response.json(). Utworzone sa zmienne pogoda3 ktora wyznacza  miejsce o id blok3 gdzie dane maja zostac wyswietlone. Utworzone sa zmienne ktore odpowiadaja za date. a nastepnie za pomoca petlii for wyswietlane sa dane w kolumnach ktore ukazuja prognoze 5 dniowa. Nastepnie do html o id blok3 dodany jest przycisk o id pokazprognoze do ktorego przypisana jest funkcja ktora po kliknieciu w przycisk przekierowuje do strony o adresie prognoza.html?city=Nisko
+
+
+
+Dokumentacja Aplikacji Pogodowej  plik script2.js
+
+1.
+
+Nazwa Funkcji: Pobieranie i wsywietlanie prognozy pogody na 5 dni dla wpisanej miejscowosci na stronie index.html. 
+
+Argumenty: url,cityInput,apiUrl2
+
+Opis: Na poczatku zmienna url pobiera link do strony na ktorej sie znajduje nastepnie zmienna cityInput pobiera nazwe miejscowosci ktora jest w linku. Nastepnie wywolouje funkcję fetch w celu pobrania danych pogodowych z API OpenWeatherMap ktora wyswietla 5 dniowa prognoze pogody dla miejscowosci z url. Następnie przetwarza otrzymaną odpowiedź w formacie JSON za pomocą metod response.json(). Utworzone sa zmienne pogoda3 ktora wyznacza  miejsce o id blok3 gdzie dane maja zostac wyswietlone. Utworzone sa zmienne ktore odpowiadaja za date. a nastepnie za pomoca petlii for wyswietlane sa dane w kolumnach ktore ukazuja prognoze 5 dniowa. 
+
+
+
+
+
+
+ 
+

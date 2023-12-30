@@ -1,0 +1,229 @@
+#blok1 {
+        
+    font-size: 130%;
+  }
+
+  #blok2 img {
+    height: 20px;
+  }
+
+  #blok2{
+    
+    background-color: #202b3b;
+    border-radius: 20px;
+    display: flex;
+    align-items: start;
+    padding-top: 35px;
+
+  font-size: 160%;
+  
+    
+  }
+
+
+  #p2{
+    margin-left: 112px;
+   
+  }
+
+  .hm img,.hm2 img{
+    height: 36px;
+  }
+
+ 
+  #opis{
+    font-size: 75%;
+  }
+
+
+ 
+
+  a{
+    text-decoration: none;
+    color: white;
+
+    
+  }
+
+  a:hover{
+    color: white;
+  }
+
+
+  
+
+  
+  
+
+  #tytul
+  {
+    text-align: center;
+  }
+
+  button{
+   float: right;
+   background-color: #0095ff;
+   color: white;
+   border-radius: 30px;
+   font-size: 80%;
+   border: none;
+  }
+
+  button:hover{
+    color: blue;
+  }
+
+
+  #blok{
+    background-color: #202b3b;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 1%;
+    height: 94%;
+    
+  }
+
+  #kontent{
+    margin-top: 30%;
+    font-size: 120%;
+  }
+
+  #blok1 .row{
+    display: flex;
+align-items: center;
+  }
+
+  #blok1 img{
+    height: 180px;
+  
+  }
+
+  #blok1{
+    font-size: 6vh;
+    text-align: center;
+    
+  }
+
+  .vertical-navbar{
+    font-size: 95%;
+  }
+
+#p1{
+  margin-top: 10vh;
+}   
+
+
+
+
+#blok3{
+  
+  background-color:#202b3b; 
+  font-size: 130%;
+  text-align: center;
+  border-radius: 20px;
+  padding-top:4em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  width: 80%;
+  margin-top: 0;
+  
+  
+  
+}
+
+hr{
+  color: #0095ff;
+  
+}
+
+
+
+#row3 .row{
+
+display: flex;
+align-items: center;
+
+}
+
+#row3{
+height: 15vh;
+
+
+}
+
+input {
+margin-top: 1%;
+margin-left: 8%;
+padding: 0px 10px 0px 15px ! important;
+height: 53px;
+border-radius: 5px;
+background-color: #202b3b;
+color: white;
+font-size: 100%;
+width: 80%;
+
+
+border: none;
+outline: none;
+text-align: left;
+}
+
+@media (max-width: 575.98px) {
+  #blok{
+    height: 10%;
+    border-radius: 0;
+    margin-bottom: 5%;
+  }
+
+  #blok3{
+    width: 100%;
+    
+  }
+
+  .vertical-navbar {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#kontent{
+  margin: 2px;
+}
+
+
+
+
+
+
+
+
+  
+
+ 
+}
+
+@media (max-width: 767.98px) {
+  #blok{
+    height: 10%;
+    border-radius: 0;
+    margin-bottom: 5%;
+  }
+
+  
+  .vertical-navbar {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+#blok3{
+  width: 100%;
+}
+
+
+#kontent{
+  margin: 2px;
+}
+
+}
